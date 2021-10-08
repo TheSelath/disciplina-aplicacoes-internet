@@ -50,3 +50,23 @@ header{
 .menu li a:hover{
     background-color: rgba(145, 71, 254, 0.5);
 }
+
+.welcome {
+    height: 75vh;
+    width: 100%;
+    background-image: url(/img/pexels-lucas-vimieiro-5209142.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.welcome h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
