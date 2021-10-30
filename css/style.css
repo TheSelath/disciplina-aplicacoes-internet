@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    align-items: center;     
 }
 
 header{
-    position: fixed;
+    
     width: 100%;
     background-color: black;    
     display: flex;
@@ -52,11 +53,149 @@ header{
     background-color: rgba(145, 71, 254, 0.5);
 }
 
-footer{
+.perfil{    
+    margin: 50px;
+    padding: 20px;
+    height: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;       
+}
+
+.info img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nome{
+    font-size: 24px;        
+    padding-top: 65px;  
+    margin-left: 230px;
+    margin-bottom: 5px;
+    
+}
+
+#titulo{
+    font-size: 16px;
+    margin-left: 230px;
+    align-content: right;
+    margin-bottom: 5px;
+    
+}
+
+.intro{
+    margin-top: -100px; ;
+    padding: 50px;
+    width: 1000px;
+    text-align: justify;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video p{
+    margin: 10px;
+    font-size: 20px;
+}
+.video{    
+    text-align: center;
+    margin: 10px auto; 
+}
+
+
+footer{    
+    padding: 10px;
     width: 100%;
     background-color: black;    
     display: flex;
-    color: white;
-    align-items: center;
+    color: white;    
 }
 
+/*Pagina de Cntatos*/
+
+.contato{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: rgb(196, 193, 193);    
+}
+
+.contato h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.form{
+    width: 100%;
+    max-width: 512px;
+    font-size: 18px;
+}
+
+.form label, 
+.form input, 
+.form textarea, 
+.form button{
+    display: block;
+    width: 100%;
+} 
+
+.form label{
+    color: black;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form button{
+    display: block;
+    padding: 1rem;
+    background: rgb(56, 46, 148);
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-right: 1rem;
+    padding-left: 1rem;    
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
