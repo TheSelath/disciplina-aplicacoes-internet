@@ -1,9 +1,16 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;    
     box-sizing: border-box;
     align-items: center;     
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
 
 header{
     
@@ -53,6 +60,8 @@ header{
     background-color: rgba(145, 71, 254, 0.5);
 }
 
+/*Home*/
+
 .perfil{    
     margin: 50px;
     padding: 20px;
@@ -90,8 +99,7 @@ header{
 }
 
 .intro{
-    margin-top: -100px; ;
-    padding: 50px;
+    margin-top: 10px; ;    
     width: 1000px;
     text-align: justify;
     font-size: 16px;
@@ -109,16 +117,166 @@ header{
     margin: 10px auto; 
 }
 
+/*Pagina de Sobre*/
 
-footer{    
-    padding: 10px;
-    width: 100%;
-    background-color: black;    
-    display: flex;
-    color: white;    
+.content{
+    width: 50vw;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 50px;    
 }
 
-/*Pagina de Cntatos*/
+.perfil img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil h1{
+    font-size: 24px;        
+    padding-top: 65px;  
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+
+.perfil p{
+    font-size: 16px;
+    margin-left: 230px;
+    align-content: right;
+    margin-bottom: 5px;
+}
+
+.xp{
+    margin: 50px;
+    padding: 20px;
+    height: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);      
+}
+
+.xp h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.item-xp-1,
+.item-xp-2{
+    margin-bottom: 25px;
+}
+
+.item-xp-1 img{
+    width: 110px;
+    height: 30px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+.item-xp-1 p{
+    font-size: 14px;              
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+
+.item-xp-1 h6{
+    font-size: 14px;
+    margin-left: 230px;
+    align-content: right;
+    margin-bottom: 5px;
+}
+
+.item-xp-2 img{    
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.item-xp-2 p{
+    font-size: 14px;              
+    margin-left: 230px;
+    margin-bottom: 5px;
+}
+
+.item-xp-2 h6{
+    font-size: 14px;
+    margin-left: 230px;
+    align-content: right;
+    margin-bottom: 5px;
+}
+
+.formacao{
+    margin: 50px;
+    padding: 20px;
+    height: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);      
+}
+
+.formacao h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5{
+    margin-bottom: 50px;
+}
+
+.item-1 img,
+.item-2 img,
+.item-3 img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+.item-4 img,
+.item-5 img{
+    width: 130px;
+    height: 100px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;        
+}
+.item-1 p,
+.item-2 p,
+.item-3 p,
+.item-4 p,
+.item-5 p{
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+    padding-top: 20px;    
+}
+
+.item-1 h6,
+.item-2 h6,
+.item-3 h6,
+.item-4 h6,
+.item-5 h6{
+    font-size: 14px;
+    margin-left: 230px;
+    align-content: right;
+    margin-bottom: 5px;
+}
+
+
+/*Pagina de Contatos*/
 
 .contato{
     min-height: 100vh;
@@ -198,4 +356,15 @@ footer{
     width: 50px;
     height: 50px;
     margin-right: 25px;
+}
+
+footer{
+    position: relative;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
